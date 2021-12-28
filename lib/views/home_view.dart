@@ -8,10 +8,12 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-          body: Center(
-              child: CircleProgress(
-        percent: 10,
-      ))),
+        body: Center(
+          child: CircleProgress(
+            percent: 50,
+          ),
+        ),
+      ),
     );
   }
 }
